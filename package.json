@@ -1,5 +1,5 @@
 {
-  "name": "no-standalone-app",
+  "name": "NoStandaloneApp",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
