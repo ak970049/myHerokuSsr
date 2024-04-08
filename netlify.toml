@@ -10,7 +10,3 @@
 
 [build.environment]
   NODE_VERSION = "20.11.0"
-
-[headers]
-  "/*"
-    Access-Control-Allow-Origin = "*"
