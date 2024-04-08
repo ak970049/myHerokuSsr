@@ -2,3 +2,15 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
+[build]
+  command = "npm run build:qa:ssr"
+  publish = "dist/NoStandaloneApp/browser"
+  functions = "dist/NoStandaloneApp/server"
+
+[build.environment]
+  NODE_VERSION = "20.11.0"
+
+[headers]
+  "/*"
+    Access-Control-Allow-Origin = "*"
